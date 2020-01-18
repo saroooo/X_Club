@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "122298092410",
+    "firebase_url": "https://x-club-dd63c.firebaseio.com",
+    "project_id": "x-club-dd63c",
+    "storage_bucket": "x-club-dd63c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122298092410:android:c173920b38a56799",
+        "android_client_info": {
+          "package_name": "com.example.dalia.x_club"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122298092410-d8nkf89d5fqsfb6uov34op96rjqjllh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dalia.x_club",
+            "certificate_hash": "8e3a3809ed20a038798e77e6e3f13ba94b978924"
+          }
+        },
+        {
+          "client_id": "122298092410-g1gis3eogdqe8qa5i6cped6tfnga63ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnsoOTTAaqNw6WNtrlrUka9tmIbrqE_dw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122298092410-g1gis3eogdqe8qa5i6cped6tfnga63ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

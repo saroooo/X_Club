@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dalia.x_club.addeventActivity">
+
+    <EditText
+        android:id="@+id/editText37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Event Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText42"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:hint="Describe the event"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="79dp"
+        android:layout_height="38dp"
+        android:text="Starts In:"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <EditText
+        android:id="@+id/editText45"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="00-00-0000"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="45dp"
+        android:layout_height="28dp"
+        android:text="At:"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <TextClock
+        android:id="@+id/textClock15"
+        android:layout_width="163dp"
+        android:layout_height="29dp"
+        android:text="00:00"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <TextClock
+        android:id="@+id/textClock16"
+        android:layout_width="110dp"
+        android:layout_height="26dp"
+        android:text="00:00"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="80dp"
+        android:layout_height="28dp"
+        android:text="Ends In:"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/editText46"
+        android:layout_width="211dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="00-00-0000"
+        android:inputType="date"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="38dp"
+        android:layout_height="27dp"
+        android:text="At:"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="453dp" />
+
+</android.support.constraint.ConstraintLayout>
